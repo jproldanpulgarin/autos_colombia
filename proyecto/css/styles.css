@@ -1,0 +1,33 @@
+
+
+body{
+    
+    background-image: url("../estilos/fondoo.jpg");
+   
+    zoom: 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+
+/*menu*/
+.menu{
+    list-style: none;
+    padding: 0;
+    background: rgb(0, 102, 128);
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(32, 181, 218);
+}
